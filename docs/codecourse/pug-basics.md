@@ -60,12 +60,51 @@ The above code produces
 
 
 - `ol`: is a container for order `li` elements that belong together
+
+```html
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+```
+
+The above code produces
+
+![list 2]({{site.url}}/images/li2.png)
+
 - `a`: is a link
+  - ex: `<a>Click Here</a>`
 - `img`: is an image
+  - ex: `<img src="http://bla.co/images/g.gif">`
 - `table`: is a table
 - `tr` is a table row
 - `th` is a column in a table header
 - `td` is a column in a table row 
+
+```html
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+The above code produces
+
+![list 2]({{site.url}}/images/table1.png)
+
 - `pre`: is a code block or any other text that should be displayed as is
 - `canvas`: is a drawing canvas
 - `div`: is a generic container. It defines a division in html page
