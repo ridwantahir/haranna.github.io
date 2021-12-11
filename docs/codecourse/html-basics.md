@@ -1,4 +1,4 @@
-# What is HTML
+# BASIC INTRODUCTION TO HTML
 - The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. 
 - It defines objects in a browser page and how they are organized in hierarchy
 - Key points
@@ -222,5 +222,37 @@ Class Student(){
 The Above example produces:
 
 ![Div2]({{site.url}}/images/html2.png)
-# What is PUG
-Pug is a template engine for Node and for the browser. It compiles to HTML and has a simplified syntax, which can make you more productive and your code more readable. Pug makes it easy both to write reusable HTML, as well as to render data pulled from a database or API
+
+## CSS in html
+- CSS is a language used to style and change how html document is presented
+- CSS rules specify presentation properties like color, height and width, etc
+- style attribute of an html element follows css rule
+- for example in the following code, style attribute specifies background color, color and padding of the div element
+
+```html
+<div id="div1" style="background-color:lightgreen;color:white;padding:20px;">
+<div>
+```
+
+- css rules are key value pairs, terminated by `;` ex: `background-color:lightgreen;`
+- more css rules can be specified together `style="background-color:lightgreen;color:white;padding:20px;height:200px;`
+
+# The 'class' attribute in html
+- In html and css, class attribute is used to target elements, with css rules
+- 'class' is a special attribute
+- - More than one class can be added to an element by separating them with with ' ' (space)
+- For example in the following code, the 'class' attribute of the div element is set to 'parent-container', while the p is assigned two classes named 'red-p' and 'big-p'
+
+  
+```html
+<div id="div1" class="parent-container">
+  <p class='red-p big-p'>Hey I am and I have two classes.</p>
+<div>
+```
+# The 'id' attribute in html
+- In html, the 'id' attribute is used to uniquely identify an element
+- ex:
+
+```html
+<p id="para1"></p>
+```
