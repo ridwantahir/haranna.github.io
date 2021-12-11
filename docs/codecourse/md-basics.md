@@ -1,4 +1,4 @@
-# Creating Awesome Slides Using CodeCourse
+# Basic Markdown Tutorial
 This is a basic introduction to markdown (abbreviated as md)
 
 For a detailed markdown(md) syntax visit [this link](https://www.markdownguide.org/basic-syntax/)
