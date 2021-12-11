@@ -221,6 +221,6 @@ Class Student(){
 
 The Above example produces:
 
-![Div2]({{site.url}}/images/div3.png)
+![Div2]({{site.url}}/images/html2.png)
 # What is PUG
 Pug is a template engine for Node and for the browser. It compiles to HTML and has a simplified syntax, which can make you more productive and your code more readable. Pug makes it easy both to write reusable HTML, as well as to render data pulled from a database or API
