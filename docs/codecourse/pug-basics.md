@@ -9,6 +9,7 @@
   - attributes
     - Defines properties of objects like height and width
 ## Basic html document
+
 ```html
 <!DOCTYPE html>
 <html>
