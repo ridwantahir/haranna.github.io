@@ -27,10 +27,11 @@ To author courses using CodeCourse:
 - JS-CSS-HTML Formatter
   - helps with formatting pug/html/javascript code
 - Markdown All in One
-  - helps with viewing markdown files while editting
+  - helps with viewing markdown files while editing
 - SVG
   - previews svg images
-
+- Code Spell Checker
+  - To check spellings in your code and docs
 ## Overview of course repository on Github
 All courses have their own repository on github
 
