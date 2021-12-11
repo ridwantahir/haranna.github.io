@@ -5,8 +5,8 @@ For a detailed markdown(md) syntax visit [this link](https://www.markdownguide.o
 
 ## What is markdown
 - Markdown is a lightweight markup language for creating formatted text using a plain-text editor. 
-- Is widely for documentation in software projects
-- Is rendered to html by markdown applications and displayed in browsers, for example
+- Is widely used for documentation in software projects
+- Rendered to html by markdown applications and displayed in browsers, for example
 - Easy syntax
 - Markdown file extension is `.md`
 ## Example md documents
@@ -34,9 +34,12 @@ Top Restuarants in LA
 3. The Rasta Guy
 
 ```
-The Above will be rendered as in the following image
+The Above will be rendered as in the follows:
 
+---
 ![list 1]({{site.url}}/images/md1.png)
+
+---
 
 Example 2:
 
@@ -61,9 +64,10 @@ Taxi is not cheap in SF. Look at the following table
 ```
 The Above will be rendered as in the following image
 
+---
 ![list 1]({{site.url}}/images/md2.png)
 
-
+---
 
 ## Markdown Syntax
 ### Headings
@@ -144,6 +148,7 @@ produces the following output:
 
 ---
 [click me](https://google.com)
+
 ---
 
 ### Image
@@ -156,6 +161,7 @@ produces the following output:
 
 ---
 ![My Image](https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-emblem-png-logo-vector-13.png)
+
 ---
 
 ### Tables
@@ -170,8 +176,10 @@ produces the following output:
 produces the following output:
 
 ---
+
 | Header1    | Header2 |
 | -----------| -----------|
 | Column11   | Column12     |
 | Column21    | Column22   |
+
 ---
