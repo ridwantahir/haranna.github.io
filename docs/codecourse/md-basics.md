@@ -142,7 +142,7 @@ produces the following output:
 ### link
 
 ```md
-[link text](https://google.com)
+[click me](https://google.com)
 ```
 produces the following output:
 
