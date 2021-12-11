@@ -82,6 +82,8 @@ The above code produces
 - `th` is a column in a table header
 - `td` is a column in a table row 
 
+example:
+
 ```html
 <table>
   <tr>
@@ -101,14 +103,68 @@ The above code produces
   </tr>
 </table>
 ```
-The above code produces
+The above code (credit: [w3schools](w3schools.com) produces:
 
 ![list 2]({{site.url}}/images/table1.png)
 
 - `pre`: is a code block or any other text that should be displayed as is
+- `code`: display code excerpts
+
+example:
+
+```html
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+```
+
+The above code produces:
+
+![list 2]({{site.url}}/images/table1.png)
+
 - `canvas`: is a drawing canvas
 - `div`: is a generic container. It defines a division in html page
+  - In the next example a `div` contains other elements
+Example:
+
+```html
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+```
+
+The above code produces:
+
+![Div2]({{site.url}}/images/div2.png)
+
 - `span`: is a generic inline (does not create new line) container for phrasing, etc
+  - ex: `<span><a>Click this link</a></span>`
+
+## HTML Attributes
+- All HTML elements can have attributes
+- Attributes provide additional information about elements
+- Attributes are always specified in the start tag
+- Attributes usually come in name/value pairs like: name="value"
+- ex1: `<img src="img_girl.jpg" width="500" height="600">`
+- ex2: <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+Adding style attribute to the div in the above example:
+
+```html
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div> 
+```
+Produces:
+
+![Div2]({{site.url}}/images/div3.png)
 
 # What is PUG
 Pug is a template engine for Node and for the browser. It compiles to HTML and has a simplified syntax, which can make you more productive and your code more readable. Pug makes it easy both to write reusable HTML, as well as to render data pulled from a database or API
