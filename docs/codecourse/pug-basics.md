@@ -43,7 +43,22 @@ In the above basic html document:
   - ex: `<h1>I am big heading </h1>`
   - ex: `<h5>This is heading 5</h5>`
 - `li` : is an entry in a list (one bullet item in power point)
+    - `<li>Item1</li>`
+    - `<li>Item2</li>`
 - `ul`: is container for unordered  `li` elements that belong together
+
+ ```html
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+ ```
+The above code produces
+
+![list 1]({{site.url}}/images/li1.png)
+
+
 - `ol`: is a container for order `li` elements that belong together
 - `a`: is a link
 - `img`: is an image
