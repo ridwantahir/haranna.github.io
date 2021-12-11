@@ -9,65 +9,6 @@ For a detailed markdown(md) syntax visit [this link](https://www.markdownguide.o
 - Rendered to html by markdown applications and displayed in browsers, for example
 - Easy syntax
 - Markdown file extension is `.md`
-## Example md documents
-Example1:
-
-```md
-# Major Cities in the UNS
-Ten of the largest cities in the world are found in the US. This is not actually true. It is totally made up. Like fake news. 
-## New York City
-Places to visit in new york city:
-- The UN office
-    1. It is awesome
-    2. Easy to get to by subway
-- Empire State building
-- Central Park
-
-## Los Angeles
-Top Restuarants in LA
-1. The Cabbanna
-    - Great menu
-        - Pizza
-        - Lobster
-    - Great staff
-2. Bre Pizza
-3. The Rasta Guy
-
-```
-The Above will be rendered as in the follows:
-
----
-![list 1]({{site.url}}/images/md1.png)
-
----
-
-Example 2:
-
-```md
-# Major Cities in the UNS
-## Seattle
-To book a ticket: [click here](https://seattle.com)
-Here is an image of lovely Seattle:
-![My Image](https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-emblem-png-logo-vector-13.png)
-
-## San Fransisco
-### Taxi Rates In Sanfransico by distance
-Taxi is not cheap in SF. Look at the following table
-| Distnace | Price |  Company name |
-|----------|-------------|------|
-|  <3km  |  $10  | Yellow Cab |
-| <10km  |  $20  |   Black Cab |
-| <15km  | $30  |    Uber |
-
-
-
-```
-The Above will be rendered as in the following image
-
----
-![list 1]({{site.url}}/images/md2.png)
-
----
 
 ## Markdown Syntax
 ### Headings
@@ -181,5 +122,65 @@ produces the following output:
 | -----------| -----------|
 | Column11   | Column12     |
 | Column21    | Column22   |
+
+---
+
+## Example md documents
+Example1:
+
+```md
+# Major Cities in the UNS
+Ten of the largest cities in the world are found in the US. This is not actually true. It is totally made up. Like fake news. 
+## New York City
+Places to visit in new york city:
+- The UN office
+    1. It is awesome
+    2. Easy to get to by subway
+- Empire State building
+- Central Park
+
+## Los Angeles
+Top Restuarants in LA
+1. The Cabbanna
+    - Great menu
+        - Pizza
+        - Lobster
+    - Great staff
+2. Bre Pizza
+3. The Rasta Guy
+
+```
+The Above will be rendered as in the follows:
+
+---
+![list 1]({{site.url}}/images/md1.png)
+
+---
+
+Example 2:
+
+```md
+# Major Cities in the UNS
+## Seattle
+To book a ticket: [click here](https://seattle.com)
+Here is an image of lovely Seattle:
+![My Image](https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-emblem-png-logo-vector-13.png)
+
+## San Fransisco
+### Taxi Rates In Sanfransico by distance
+Taxi is not cheap in SF. Look at the following table
+| Distnace | Price |  Company name |
+|----------|-------------|------|
+|  <3km  |  $10  | Yellow Cab |
+| <10km  |  $20  |   Black Cab |
+| <15km  | $30  |    Uber |
+
+
+
+```
+The Above will be rendered as in the following image
+
+---
+![list 1]({{site.url}}/images/md2.png)
 
 ---
