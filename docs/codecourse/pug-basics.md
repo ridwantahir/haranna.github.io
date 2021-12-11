@@ -9,7 +9,7 @@
   - attributes
     - Defines properties of objects like height and width
 ## Basic html document
-```
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,6 +23,7 @@
 </body>
 </html>
 ```
+
 ![Basic Image](images/html1.png)
 - The html tag is the parent of all objects in a page
 # What is PUG
