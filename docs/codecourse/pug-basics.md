@@ -140,10 +140,12 @@ Example:
 
 The above code produces:
 
-![Div2]({{site.url}}/images/div2.png)
+![Div2]({{site.url}}/images/div1.png)
 
 - `span`: is a generic inline (does not create new line) container for phrasing, etc
   - ex: `<span><a>Click this link</a></span>`
+  
+- `br` : is a new line tag
 
 ## HTML Attributes
 - All HTML elements can have attributes
@@ -162,9 +164,63 @@ Adding style attribute to the div in the above example:
   <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
 </div> 
 ```
-Produces:
+Produces the following image. Notice how the background color changed
 
 ![Div2]({{site.url}}/images/div3.png)
 
+## A complete html example
+
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="div1" style="background-color:lightgreen;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  
+  <a href="https://london.com"></a>
+</div> 
+
+<div id="div11" style="background-color:lightblue;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div> 
+
+<h3>Places To Visit in London</h3>
+<ul>
+	<li>The Wembley Stadium</li>
+    <li>The ww2 memorial musium</li>
+    <li>Stanford Bridge<li>
+    <li>The Emirates Stadium</li>
+</ul>
+<h3>Hotels Rank in London</h3>
+<ol>
+<li>The Hilton Hotel</li>
+<li>Trump Hotel</li>
+<li>The Global</li>
+</ol>
+
+
+<pre>
+<code>
+Class Student(){
+	int age;
+    String name;
+    String fullName
+}
+</code>
+</pre>
+
+</body>
+</html>
+
+```
+
+The Above example produces:
+
+![Div2]({{site.url}}/images/div3.png)
 # What is PUG
 Pug is a template engine for Node and for the browser. It compiles to HTML and has a simplified syntax, which can make you more productive and your code more readable. Pug makes it easy both to write reusable HTML, as well as to render data pulled from a database or API
