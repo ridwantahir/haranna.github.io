@@ -176,7 +176,7 @@ section
 ```
 
 For the fragment to work `data-fragment="7"` should be set properly on the elements that need to be fragmented. 
-Refer to [this guide](/codecourse/svg-attributes) to learn how to draw svg diagrams add attributes to svg
+Refer to [this guide](/codecourse/drawio) to learn how to draw svg diagrams add attributes to svg
 
 ### SVG Motion
 Basic SVG animation could be added the slide. Look at the following example:
@@ -192,4 +192,4 @@ For the animation to work two attributes need to be set:
 - `data-keyframe-id` to indicate which fragment index the element need to be added at
 - `data-motion-id` to identify which objects are different versions of the same object
 
-Refer to [this guide](/codecourse/svg-attributes) to learn how to draw svg diagrams add attributes to svg
+Refer to [this guide](/codecourse/drawio) to learn how to draw svg diagrams add attributes to svg
