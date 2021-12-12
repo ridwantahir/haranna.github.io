@@ -1,9 +1,9 @@
 # Guidelines to Author Courses For Oromia Foundation
-Here at Oromia Foundation we use a concept called coding your presentation (coding a course) to autor courses. This approach, unlike the traditional WYSIWYG tools, simplifies collaboration, versioning, QA contorl. Furthermore, it helps us keep clean separation between authoring courses and preparing course videos. 
+Here at Oromia Foundation we use a concept called coding your presentation (coding a course) to author courses. This approach, unlike the traditional WYSIWYG tools, simplifies collaboration, versioning, QA control. Furthermore, it helps us keep clean separation between authoring courses and preparing course videos. 
 
 We use a node js based tool called CodeCourse, that is built on top of the awesome  [Reveal Js](http://revealjs.com/). While [Reveal Js](http://revealjs.com/) is a rich tool, we have added new features on top of [Reveal Js](http://revealjs.com/) and some of the features in [Reveal Js](http://revealjs.com/) are not supported.  
 
-To help us maintian the same standard, we strongly encourage the course authors to follow this guide line. 
+To help us maintain the same standard, we strongly encourage the course authors to follow this guide line. 
 
 ### Required basic skills
 To author courses using CodeCourse:
@@ -57,23 +57,23 @@ All courses have their own repository on github
         npm install
     ```
 - Make sure that all the above commands run successfully
-- To verify, everyting is setup correctly, run the following command to lauch node.js server.
+- To verify, everything is setup correctly, run the following command to launch node.js server.
     ```sh
         node server.js 
     ```
 - Visit [localhost](localhost:8080) to view the slides. You should be able to see list of lessons already on the page
-- Click on one of the lessons and you should see the presentaiton slides
+- Click on one of the lessons and you should see the presentation slides
 - Congrats, now you are ready to start developing the course
 
 ### Step 2 Start Making Changes
-Take a look around and make yourself familier with the folder structure. 
+Take a look around and make yourself familiar with the folder structure. 
 - For now, you can ignore all the folders except `course-materials`
 - `course-materials` folder is where the course materials live.
--  `course-materials` folder is orgnaized by sub folders and further subfolders
-   -  'assesments': stores course assesments. Put courses assesments under appropriate sub folders (labs, quizzes, tests). It is advised that you create additional sub folders under each sub folders (labs, quizzes, tests) by chapter and so on
+-  `course-materials` folder is organized by sub folders and further sub-folders
+   -  'assessments': stores course assessments. Put courses assessments under appropriate sub folders (labs, quizzes, tests). It is advised that you create additional sub folders under each sub folders (labs, quizzes, tests) by chapter and so on
    -  'downloadable-materials': This folder is not used to make course videos at all. It keeps extra materials to be shared with students. If you have a piece of code or book you want to share with students, it is here. Use the appropriate sub-folders under 'downloadable' materials and you may create new ones as needed. Please note that there is a separate folder for code excerpts used for making course videos. 
-   -  'lessons': further devided by chapters, this folder contains course slides. Create as many chapters as needed. Under each chapter, create lessons. The naming convention for lessons is `lesson`{num}{extension}. 'num' is lesson number while extension is either 'pug' or 'html'. forexample, 'lesson1.pug', 'lesson2.html' are good names. This folder will be monitored by CodeCourse and there fore do not store non-slide files (html or pug) under this folder
-   -  `resources`: contains supporting materials used in the slide. Use 'codes' sub folder to store codes and project files. use 'images' sub folder to store images. 'misc' folder is used to keep other types of resources such as chart data, table data, etc. Please be reminded to create new sub folders to make directory heirarchy cleaner. For example, under 'code' sub folder, you may create 'lab1', 'lab2', 'project1', etc sub folders for a logical heirarchy
+   -  'lessons': further divided by chapters, this folder contains course slides. Create as many chapters as needed. Under each chapter, create lessons. The naming convention for lessons is `lesson`{num}{extension}. 'num' is lesson number while extension is either 'pug' or 'html'. for example, 'lesson1.pug', 'lesson2.html' are good names. This folder will be monitored by CodeCourse and there fore do not store non-slide files (html or pug) under this folder
+   -  `resources`: contains supporting materials used in the slide. Use 'codes' sub folder to store codes and project files. use 'images' sub folder to store images. 'misc' folder is used to keep other types of resources such as chart data, table data, etc. Please be reminded to create new sub folders to make directory hierarchy cleaner. For example, under 'code' sub folder, you may create 'lab1', 'lab2', 'project1', etc sub folders for a logical hierarchy
    - `course-summary.md`: is a markdown file and contains general information about the course. The information includes: course prerequisites, intended audience, course content, etc
 
 Once you are familiar with the folder structure, add new content to the course folder under `course-materials`. 
@@ -90,7 +90,7 @@ Once you are familiar with the folder structure, add new content to the course f
     ```
         git checkout -b w/chapter-1
     ```
-- To commit your changes run the followng commands. note that `-m` flag stands for commit message. Use a descriptive brief langauge to explain the changes you made
+- To commit your changes run the following commands. note that `-m` flag stands for commit message. Use a descriptive brief language to explain the changes you made
     ```
         git add .
         git commit -m 'added chapter 1'
@@ -101,7 +101,7 @@ Once you are familiar with the folder structure, add new content to the course f
     ```
 
 ### Step 4 Create pull request
-- Once you are happy with all the changes you have made so far, head to the course repository on github and creae a [pull request](https://docs.github.com/en/pull-requests)
+- Once you are happy with all the changes you have made so far, head to the course repository on github and create a [pull request](https://docs.github.com/en/pull-requests)
 - An admin will review your changes
 
 ### Next Steps

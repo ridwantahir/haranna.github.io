@@ -1,6 +1,14 @@
 # CodeCourse Guide
 CodeCourse is a nodejs based tool, that is built on top of [Reveal.js](https://revealjs.com/). Walk through their [documentation](https://revealjs.com/) and make yourself familiar with the tool and then head back here to continue this tutorial
 
+## Pre-requisites
+- Basic knowledge of HTML
+  - If you are new to html, there is a brief 5 mins [html tutorial](/codecourse/html-basics)
+- Basic Knowledge of pug
+  - If you are new to pug, there is a brief 5 ins [pug tutorial](/codecourse/pug-basics)
+- Basic Knowledge of markdown(md)
+  - If you are new to markdown, there is a brief 5 mins [md tutorial](/codecourse/md-basics)
+
 ## Recap of the features of RevealJs used in CodeCourse
 - Slide Features
 - Code
