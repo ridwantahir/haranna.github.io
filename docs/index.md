@@ -65,6 +65,9 @@ All courses have their own repository on github
 - Click on one of the lessons and you should see the presentation slides
 - Congrats, now you are ready to start developing the course
 
+### Step 1.1
+Visit the [demo page](http://localhost:8080/demo/) 
+
 ### Step 2 Start Making Changes
 Take a look around and make yourself familiar with the folder structure. 
 - For now, you can ignore all the folders except `course-materials`
