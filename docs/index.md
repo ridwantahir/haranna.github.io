@@ -105,4 +105,4 @@ Once you are familiar with the folder structure, add new content to the course f
 - An admin will review your changes
 
 ### Next Steps
-Visit [codecourse home page](/codecourse/gettingstarted) to learn how to write pug or html slides
+Visit [codecourse home page](/codecourse/code-course-guide) to learn how to write pug or html slides
