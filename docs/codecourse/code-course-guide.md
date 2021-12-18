@@ -52,7 +52,40 @@ section
     p Some conspiracy theorists say, he fled to Latin America
 ```
 
+## Add Slide script (slide note)
+The course video will be recorded by a different person than the course authors. The person who creates course videos will play the slides full screen and record the screen. Then, necessary video editing will be applied before the course is uploaded to edx platform. This requires adding speaker notes/scripts on the the slides themselves. 
+
+The following is important!!!!
+
+**The speaker notes are added using `aside` tag at the end of the slide. use ordered list to specify what the speaker should say on EVERY CLICK on the slide. if the slide has one fragment, i.e one click, the list contains only one list. similarly, if the slide has 5 fragments the list should contain five items**
+
+Below is an example 
+```pug
+section
+    ### Speaker Note
+    p(class = 'fragment', data-fragment-index='1') Clouds carry water droplets
+    p(class = 'fragment', data-fragment-index='2') When the temperature drops, they fall as rain
+    p(class = 'fragment', data-fragment-index='3') They the rain evaporates, repeating the cycle
+
+    aside
+        ol
+            li clouds actually contain water particles. the darker the color, the more dense the particles are
+            li When the temperature drops, because of sunlight or wind, the water particles start to fall as rain
+            li Then when the temperature is high enough, the water on the surface of the earth evaporates completing the cycle
+```
+
+In the Above slide, the section under `aside` tag is an ordered list. the ordered list contains three items, each of which decide what the narrator(slide presenter) has to say on every click(fragment) on the slide.
+
+It is **very important that course authors make sure that the slide fragments and speaker note is in synch**
+
+Also, note that course authors won't have access to the cursor to use it in their explanation. If you a course author, tools at your disposal to make your slides more lively is:
+- fragments (both code and text fragments)
+- auto animate feature of reveal js
+- use svg animation, for dynamic content
+- speaker note, to dictate what the presenter has to utter doing course video creation
+
 ## Add images and other resource files
+
 If you have supporting resources (other than slides) like images, code samples, table data, chart data, etc, put them as follows:
 - images: `/course-materials/resources/images/`
 - code samples: `/course-materials/resources/codes`
