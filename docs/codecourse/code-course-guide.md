@@ -62,7 +62,7 @@ The following is important!!!!
 Below is an example 
 ```pug
 section
-    ### Speaker Note
+    h3 Speaker Note
     p(class = 'fragment', data-fragment-index='1') Clouds carry water droplets
     p(class = 'fragment', data-fragment-index='2') When the temperature drops, they fall as rain
     p(class = 'fragment', data-fragment-index='3') They the rain evaporates, repeating the cycle
